@@ -13,10 +13,10 @@ jobs:
   echo-goodbye:
     runs-on: ubuntu-latest
     steps:
-      - name: Failed step
+      - name: Good Step
         run: |
-          echo "I will fail"
-          exit 1
+          echo "All Good"
+          exit 0
       - name: Say goodbye
         run: echo "Goodbuy!"
         
